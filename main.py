@@ -31,7 +31,8 @@ def fileadd(n,t,r):
 
 def show(n,t,r):
     for i in range(n):
-        print(t[i]+"'s number is "+r[i]+)
+        print(t[i]+"'s number is "+r[i])
+    return 1
 
 n = saisie()
 remplir(n,t)

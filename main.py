@@ -29,7 +29,12 @@ def fileadd(n,t,r):
     f.close()
     return 1
 
+def show(n,t,r):
+    for i in range(n):
+        print(t[i]+"'s number is "+r[i]+)
+
 n = saisie()
 remplir(n,t)
 phone(n,t,r)
 fileadd(n,t,r)
+show(n,t,r)

@@ -1,10 +1,4 @@
 from numpy import array
-import firebase_admin
-
-from firebase_admin import credentials, firestore
-cred = credentials.Certificate("db.json")
-firebase_admin.initialize_app(cred)
-db = firestore.client()
 
 t = array([str]*20)
 r = array([str]*20)
